@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix - Page d'accueil</title>
+  <style>
+    /* RESET de base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #141414;
+      color: white;
+    }
+
+    /* Conteneur principal */
+    .container {
+      position: relative;
+      height: 100vh;
+      background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1192,h_670,q_70,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjU2MmFhZjQtNWRiYi00NjAzLWEzMmItNmVmNmMyMjMwMTM2XC9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LOYKSxIDqfPwWHR0SSJ-ugGQ6bECF0yO6Cmc0F26CQs') center center no-repeat;
+      background-size: cover;
+      text-align: center;
+    }
+
+    /* Navbar */
+    header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      width: 100px;
+    }
+
+    .login-btn {
+      background-color: #e50914;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 3px;
+    }
+
+    .login-btn:hover {
+      background-color: #f40612;
+    }
+
+    /* Texte d'intro */
+    .intro {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translateX(-50%);
+      max-width: 600px;
+    }
+
+    .intro h1 {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+
+    .intro p {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .get-started-btn {
+      padding: 12px 30px;
+      font-size: 18px;
+      background-color: #e50914;
+      border: none;
+      color: white;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+
+    .get-started-btn:hover {
+      background-color: #f40612;
+    }
+
+    /* Footer */
+    footer {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      font-size: 14px;
+    }
+
+    footer p {
+      color: rgba(255, 255, 255, 0.7);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Conteneur principal -->
+  <div class="container">
+    <!-- Navbar -->
+    <header>
+      <img class="logo" src="file:///C:/Users/bassemmnafeg/Downloads/Netflix%20France%20-%20Regardez%20des%20s%C3%A9ries%20en%20ligne,%20Regardez%20des%20films%20en%20ligne_fichiers/Netflix_Logo_PMS.png" alt="Logo Netflix">
+      <button class="login-btn">Se connecter</button>
+    </header>
+
+    <!-- Section d'intro -->
+    <div class="intro">
+      <h1>Regardez des films et des séries TV en streaming</h1>
+      <p>Rejoignez Rexflix dès maintenant pour 0€</p>
+      <button class="get-started-btn">Commencer</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>Rexflix</p>
+    </footer>
+  </div>
+
+</body>
+</html>
